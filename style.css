@@ -1,0 +1,59 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 27, 27);
+  color: darkIndigo;
+} */
+
+/* .accordian {
+  width: 540px;
+} */
+
+/* .content-box { */
+  /* position: relative; */
+  /* margin: 1rem; */
+  /* border: 1px solid red; */
+
+/* } */
+/* 
+.title {
+  background-color: cadetblue;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.title::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 1.2rem;
+}
+
+.active .title::after {
+  content: "-";
+} */
+/* 
+.content {
+  background-color: brown;
+  padding: 10px;
+  height: 0;
+  overflow: hidden;
+  transition: all.5s;
+  overflow-y: auto;
+}
+
+.active .content {
+  height: 100px;
+  padding: 10px;
+} */
