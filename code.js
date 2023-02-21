@@ -503,7 +503,7 @@
 // task2();
 
 //? callback hell
-
+//* Period of DOOM
 // const heading1El = document.querySelector(".heading1");
 // const heading2El = document.querySelector(".heading2");
 // const heading3El = document.querySelector(".heading3");
@@ -548,7 +548,7 @@
 
 //* Promises
 
-// let carom = ["jaddu", "brad", "jessica", "lisaa"];
+// let carom = ["jaddu", "brad", "jessica", "lisa"];
 
 // const playerCheck = new Promise((resolve, reject) => {
 //   if (
@@ -602,24 +602,39 @@
 // console.log(z);
 // z()
 
-// scope 
+// scope
 // if (Math.random() > 0.5) {
 //     var x = 1;
 //   } else {
 //     var x = 2;
 //   }
 //   console.log(x);
-  
+
 // function makeAdder(x) {
 //     return function (y) {
 //       return x + y;
 //     };
 //   }
-  
-  // const add5 = makeAdder(5);
-  // const add10 = makeAdder(10);
-  
-  // console.log(add5(5)); // 7
-  // console.log(add10(5)); // 12
-  
-  
+
+// const add5 = makeAdder(5);
+// const add10 = makeAdder(10);
+
+// console.log(add5(5)); // 7
+// console.log(add10(5)); // 12
+
+//* Api FETCH
+
+// fetch("https://goweather.herokuapp.com/weather/Ny").then((res) => {
+//     return res.json();
+//   }).then((data) => {
+//     console.log("response", data.temperature);
+//   });
+
+// fetch("https://api.chucknorris.io/jokes/random")
+//   .then((res) => {
+//     return res.json;
+//   })
+//   .then((resolve)=>{
+//     console.log(resolve);
+//   })
+//   .catch();
