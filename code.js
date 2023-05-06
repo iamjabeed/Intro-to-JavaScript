@@ -638,3 +638,13 @@
 //     console.log(resolve);
 //   })
 //   .catch();
+
+// const shoppingCart = ["Milk", "coffe", "Tea", "honey"];
+// let userInput = prompt("are you allegic");
+// if (userInput === "true") {
+//   let spliced = shoppingCart.splice(3, 1);
+//   console.log(spliced);
+//   console.log(shoppingCart);
+// }else{
+//     console.log("fine");
+// }
